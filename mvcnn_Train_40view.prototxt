@@ -1,0 +1,16 @@
+net: "mvccn_40view.prototxt"
+test_iter: 30	
+test_interval: 400
+base_lr: 0.0001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 2500
+display: 10
+max_iter: 10000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 20000
+solver_mode: GPU
+snapshot_prefix: "mvcnn_vipModel_40view_0616" 
+iter_size : 1
+
