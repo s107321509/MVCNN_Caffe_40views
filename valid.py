@@ -6,7 +6,7 @@ import sys,os
 
 import glob
 #設置當前目錄 
-caffe_root = '/home/viplab/MVCNN/MVCNN_40views/'   
+caffe_root = './caffe/'   
 sys.path.insert(0, caffe_root + 'python')  
 import caffe 
 os.chdir(caffe_root)  
@@ -14,7 +14,7 @@ os.chdir(caffe_root)
 caffe.set_mode_gpu()
 caffe.set_device(0)
 
-net_file='./mvccn_40view_deploy.prototxt'  
+net_file='./mvcnn_40view_deploy.prototxt'  
 caffe_model='./mvcnn_vipModel_40view_0616_iter_10000.caffemodel'  
 #mean_file='./ilsvrc_2012_mean.npy' 
 
