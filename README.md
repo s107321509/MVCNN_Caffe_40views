@@ -17,7 +17,7 @@ https://drive.google.com/file/d/1DbXL3fUVObOCvUxk2CwjXL-KukFcGRxX/view?usp=shari
 5. mvccn_40view.prototxt路徑與種類數目修改：  
 - 修改mvccn_40view.prototxt中的輸入層的資料路徑  
 ```
-'data_path': './vipModel_white_background'  
+'data_path': './40views'  
 ```
 
 - 修改最後一層全連接層的種類數目  
