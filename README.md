@@ -1,6 +1,4 @@
-# MVCNN_Caffe_40views
-
-# MVCNN於caffe中實現    
+# MVCNN_Caffe_40views 
 
 ## 資料準備
 1. 下載GitHub所有的文件，點選Download Zip
