@@ -9,5 +9,5 @@ import os
 caffe.set_mode_gpu()
 caffe.set_device(0)
 solver = caffe.SGDSolver('mvcnn_Train_40view.prototxt')
-#solver.net.copy_from('mvcnn_iter_150000.caffemodel')
+solver.net.copy_from('mvcnn_iter_150000.caffemodel')
 solver.solve()
